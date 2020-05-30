@@ -1,0 +1,79 @@
+.contactbg
+{
+    height: 560px;
+    width: 1365px;
+    background-image: url(E:\AjPortfolio\src\assets\contactbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.card
+{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    height: 540px;
+    width: 1300px;
+    border-width: thin 2px;
+    border-bottom: thin 2px;
+    background: transparent;
+    
+
+}
+.contactcard
+{
+    background-color:white;
+    width: 595px;
+    height: 160px;
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+    background: transparent;
+}
+.contacta:hover
+{
+    transform: scale(1.1);
+}
+.contactcall:hover
+{
+    transform: scale(1.1);
+}
+.contactmsg:hover
+{
+    transform: scale(1.1);
+}
+.contactloaction:hover
+{
+    transform: scale(1.1);
+}
+.contactbg
+{
+    height: 620px;
+}
+
+.contactimg
+{
+    height: 220px; 
+    width: 520px; 
+    //margin-left: 1rem; 
+    margin-bottom: 1rem; 
+    margin-top: 1rem; 
+}
+.contactimg:hover{
+    transform: scale(1.1);
+}
+.form
+{
+     width: 450px;
+     height: 180px;
+     margin-top: 2rem; 
+     margin-left: 5rem; 
+     }
+.btn
+{
+    width: 100px; 
+    height:38px; 
+    text-align: center;
+    margin-right: 22rem;
+    margin-top: 1rem;
+}

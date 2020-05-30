@@ -1,0 +1,33 @@
+.viewresumebg
+{
+    
+    height: 850px;
+    width: 1348px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(E:\AjPortfolio\src\assets\viewresumebg.jpg);
+}
+.card
+{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    height: 690px;
+    width: 1300px;
+    border-width: thin 2px;
+    border-bottom: thin 2px;
+    background: transparent;
+    
+
+}
+
+.viewimg
+{
+    height: 420px; 
+    width: 500px; 
+     margin-bottom: 1rem; 
+}
+.skillsimg:hover{
+    transform: scale(1.1);
+}

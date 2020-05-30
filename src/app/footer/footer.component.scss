@@ -1,0 +1,37 @@
+
+*img{
+    height: 20px;
+    width: 20px;
+}
+
+*nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.google:hover
+{
+transform: scale(1.1);
+}
+.Facebook:hover
+{
+transform: scale(1.1);
+}
+.Instagram:hover
+{
+transform: scale(1.1);
+}
+.LinkedIn:hover
+{
+transform: scale(1.1);
+}
+.Twitter:hover
+{
+transform: scale(1.1);
+}
+.Youtube:hover
+{
+transform: scale(1.1);
+}
+

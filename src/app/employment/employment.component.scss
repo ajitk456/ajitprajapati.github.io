@@ -1,0 +1,37 @@
+.emloymentbg
+{
+    height: 650px;
+    width: 1365px;
+    background-image: url(E:\AjPortfolio\src\assets\employmentbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card
+{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    height: 540px;
+    width: 1300px;
+    border-width: thin 2px;
+    border-bottom: thin 2px;
+    background: transparent;
+
+}
+
+.qoutes1:hover
+{
+    transform: scale(1.1) ;
+}
+.qoutes2:hover
+{
+    transform: scale(1.1) ;
+}
+.btn
+{
+    width: 120px; 
+    background-color: palevioletred; 
+    color: white; 
+    margin-right: 27rem;
+    }

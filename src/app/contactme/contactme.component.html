@@ -1,0 +1,109 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<div class="contactbg"><br>
+    <div class= "card border-0" style="border-width: thin;">
+        <div class="card-group">
+
+            <div class="card border-0" style=" height: 530px; margin-top: 0.3rem; margin-left: 0.3rem; margin-bottom: 0.3;">
+              <div class="contactcard"> 
+              <div class="card-body" style=" background-color: white; height: 140px; background: transparent;">
+                <hr style="background-color: lightskyblue;">  
+                <div class="card-deck">
+                    <div class="card1" style="height: 120px; width: 130px; margin-left: 1rem; margin-right: 1rem; background-color: white;">
+                      <div class="card-body">
+                        <img src="\assets\contatct@.jpeg" class="contacta" alt="1" style="height: 80px; width: 90px; display: flex;">
+                      </div>
+                    </div>
+                    <div class="card2 " style="height: 120px;width: 130px;  margin-right: 1rem; background-color: white;">
+                      <div class="card-body">
+                        <img src="\assets\contactcall.jpeg" class="contactcall" alt="2" style="height: 80px; width: 90px;">
+                      </div>
+                    </div>
+                    <div class="card3 " style="height: 120px; width: 130px; margin-right: 1rem; background-color: white;">
+                      <div class="card-body">
+                       <img src="\assets\contatctmsg.jpeg" class="contactmsg" alt="3" style="height: 80px; width: 90px;">
+                      </div>
+                    </div>
+                    <div class="card4 " style="height: 120px; width: 130px; background-color: white;">
+                      <div class="card-body">
+                        <img src="\assets\contactlocation.jpeg" class="contactloaction" alt="4" style="height: 80px; width: 90px;">
+                      </div>
+                    </div>
+                  </div>
+<hr style="background-color: lightskyblue;">
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="card border-0" style="height: 530px; margin-top: 0.3rem; margin-right: 0.3rem; margin-bottom: 0.3;">
+                <div class="card-body">
+                   <!--  <p class="card-text">Some text inside the second card</p> -->
+
+<pre  style="line-height: 0.1rem; margin-left: 12rem;">
+    <h4 style=" color:black;"><i class="fa fa-phone " style="color: blueviolet; " title="Contact"></i> : +91 7738199752</h4>
+    <h4 style=" color: black;"><i class="fa fa-envelope" style="color: blueviolet; margin-right: 0.5rem;" title="email Id" ></i>: ajit@gmail.com</h4>
+    <h4 style=" color: black;"><i class="fa fa-map-marker" style="color: blueviolet; margin-left: 0.4rem;" title="Location"></i> : Mumbai | Thane</h4>
+</pre>
+                    <div class="form border-dark">
+<pre style="margin-left: 10rem;">
+<b><u>Note</u> :</b> <i><b style="color: red;">*</b> mark fields are mandatory.</i>
+</pre>
+                        <form (ngSubmit)="conform.form.valid && contactform()" #conform="ngForm">
+                            <div class="form-group">
+                                <!--    <label><b>Name:</b></label> -->
+                                <div class="input-group mb-3">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-user" style="color:#696969;"></i></span>
+                                  </div>
+                                <input  placeholder="* YOUR FULL NAME" class="form-control" rows="3" [(ngModel)]="contact.fname" name="fname" required
+                                  #fname="ngModel" ><b><sup style="color: red; margin-left: 0.3rem;">*</sup></b>
+                                </div>
+                                <div class="alert alert-danger"  style="text-align: center; width: 250px; height: 40px; margin-left: 2rem;" role="alert" [hidden]="fname.valid || fname.pristine">
+                                  Message Is Required!!!
+                                </div>
+                              </div>
+                            
+                            <div class="form-group">
+                             <!--    <label><b>Email id:</b></label> -->
+                                <div class="input-group mb-3">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope" style="color:#696969;"></i></span>
+                                  </div>
+                                <input placeholder="* YOUR EMAIL" class="form-control" rows="3" [(ngModel)]="contact.emailid" name="emailid" required
+                                  #emailid="ngModel" ><b><sup style="color: red; margin-left: 0.3rem;">*</sup></b>
+                                </div>
+                                <div class="alert alert-danger" style="text-align: center; width: 250px; height: 40px; margin-left: 2rem;" role="alert" [hidden]="emailid.valid || emailid.pristine">
+                                  Message Is Required!!!
+                                </div>
+                              </div>
+
+                            <div class="form-group">
+                             <!--    <label><b>Your Message:</b></label> -->
+                                <div class="input-group mb-3">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-comments" style="color:#696969"></i></span>
+                                  </div>
+                                <textarea placeholder="Your Message . . ." class="form-control" rows="3" [(ngModel)]="contact.massage" name="massage" required
+                                  #massage="ngModel" ></textarea><b style="margin-left: 0.6rem;"></b>
+                                </div><!-- 
+                                <div class="alert alert-danger" style="text-align: center; width: 250px; height: 40px; margin-left: 2rem;" role="alert" [hidden]="massage.valid || massage.pristine">
+                                  Message Is Required!!!
+                                </div> -->
+                              </div>
+
+
+                            <button type="submit" class="btn  btn-outline-info" title="Submit"  role="button">Submit <i class="fa fa-arrow-right" aria-hidden="true" style="margin-left: 0.5rem;"></i></button>
+
+
+
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

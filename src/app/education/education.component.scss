@@ -1,0 +1,43 @@
+.educationbg
+{
+    height: 650px;
+    width: 1365px;
+    background-image: url(E:\AjPortfolio\src\assets\educationbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //min-height: 10vh;
+}
+.card
+{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    height: 540px;
+    width: 1300px;
+    border-width: thin 2px;
+    border-bottom: thin 2px;
+    background: transparent;
+    
+
+}
+
+.educationimg
+{
+    height: 200px; 
+    width: 450px; 
+    margin-left: 4.5rem; 
+    margin-bottom: 1rem; 
+    margin-top: 1rem; 
+}
+.educationimg:hover{
+    transform: scale(1.1);
+}
+.edqoutes1:hover
+{
+    transform: scale(1.1) ;
+}
+.edqoutes2:hover
+{
+    transform: scale(1.1) ;
+}

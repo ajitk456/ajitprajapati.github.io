@@ -1,0 +1,48 @@
+.skillsbg
+{
+    height: 620px;
+    width: 1365px;
+    background-image: url(E:\AjPortfolio\src\assets\skillsbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.card
+{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    height: 540px;
+    width: 1300px;
+    border-width: thin 2px;
+    border-bottom: thin 2px;
+    background: transparent;
+
+}
+.btn
+{
+    margin-left: 27rem;
+    margin-top: 1rem;
+    width: 160px;
+    
+}
+.qoutes1:hover
+{
+    transform: scale(1.1) ;
+}
+.qoutes2:hover
+{
+    transform: scale(1.1) ;
+}
+.skillsimg
+{
+    height: 180px; 
+    width: 490px; 
+    margin-left: 4rem; 
+    //margin-bottom: 1rem; 
+    margin-top: 1rem; 
+}
+.skillsimg:hover{
+    transform: scale(1.1);
+}

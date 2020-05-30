@@ -1,0 +1,72 @@
+.aboutbg
+{
+   
+        height: 620px;
+        width: 1365px;
+        background-image: url(E:\AjPortfolio\src\assets\aboutbg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        //min-height: 10vh;
+    
+    
+}
+.card
+{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    height: 540px;
+    width: 1300px;
+    border-width: thin 2px;
+    border-bottom: thin 2px;
+    background: transparent;
+    
+
+}
+
+.contactimg
+{
+    height: 420px; 
+    width: 500px; 
+    //margin-left: 1rem; 
+    margin-bottom: 1rem; 
+    //margin-top: 1rem; 
+}
+.contactimg:hover{
+    transform: scale(1.1);
+}
+.btn
+{
+    margin-left: 20rem;
+   // margin-top: 1rem;
+    width: 160px;
+    
+}
+/* 
+.btn:hover{
+    transform: scale(1.1);
+} */
+.history
+{
+    width: 600px;
+    height: 100px;
+    background-color: orange;
+    text-align: center;
+    //margin-right: 5rem;
+    color: white;
+    font-size: xx-large;
+
+}
+.skillsimg
+{
+    height: 180px; 
+    width: 420px; 
+    //margin-left: 1rem; 
+    margin-bottom: 3rem; 
+    //margin-top: 1rem; 
+}
+.skillsimg:hover{
+    transform: scale(1.1);
+}
+

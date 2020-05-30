@@ -1,0 +1,40 @@
+.homebg
+{
+    height: 625px;
+    width: 1365px;
+    background-image: url(E:\AjPortfolio\src\assets\homebg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //min-height: 10vh;
+
+}
+.card
+{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    height: 540px;
+    width: 1300px;
+    border-width: thin 2px;
+    border-bottom: thin 2px;
+    background: transparent;
+  
+
+}
+.html:hover
+{
+    transform: scale(1.1);
+}
+.css:hover
+{
+    transform: scale(1.1);
+}
+.javascript:hover
+{
+    transform: scale(1.1);
+}
+.angular:hover
+{
+    transform: scale(1.1);
+}
