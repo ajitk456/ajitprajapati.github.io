@@ -25,7 +25,8 @@ const appRoutes: Routes = [
   {path: 'contactme', component: ContactmeComponent},
   {path: 'viewskills', component: ViewskillsComponent},
   {path: 'viewresume', component: ViewresumeComponent},
-  {path: 'project', component: ProjectComponent}
+  {path: 'project', component: ProjectComponent},
+  {path: '', pathMatch: 'full', redirectTo: '/home'}
 ];
 
 @NgModule({
