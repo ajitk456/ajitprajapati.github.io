@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ViewskillsComponent } from './viewskills.component';
+import { ScreenshotsComponent } from './screenshots.component';
 
-describe('ViewskillsComponent', () => {
-  let component: ViewskillsComponent;
-  let fixture: ComponentFixture<ViewskillsComponent>;
+describe('ScreenshotsComponent', () => {
+  let component: ScreenshotsComponent;
+  let fixture: ComponentFixture<ScreenshotsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ViewskillsComponent ]
+      declarations: [ ScreenshotsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ViewskillsComponent);
+    fixture = TestBed.createComponent(ScreenshotsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

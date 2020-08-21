@@ -1,72 +1,105 @@
 .aboutbg
 {
-   
-        height: 620px;
-        width: 1365px;
-        background-image: url(E:\AjPortfolio\src\assets\aboutbg.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        //min-height: 10vh;
-    
-    
+    width: 100%;
+    height: auto;
+    background-color:#696969;
+    // padding-top: 2rem;
+    // padding-bottom: 2rem;
 }
-.card
+.rounded-circle:hover
 {
+    opacity: 1.5;
+}
+.rounded-circle
+{
+    opacity: 0.8;
+    width: 440px; 
+    height: 360px;
     margin-top: 3rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-    height: 540px;
-    width: 1300px;
-    border-width: thin 2px;
-    border-bottom: thin 2px;
-    background: transparent;
+    margin-left: 4rem;
+}
+
+@media(min-width:320px) and (max-width: 359px){
+    *h1{
+        font-size: 17px;
+    }
+    *h6{
+        font-size: 15px;
+    }
+    .button{
+        size: 20px;
+    }
+    .rounded-circle{
+        height: 10rem;
+        width: 12rem;
+            }
+}
+
+@media(min-width:360px) and (max-width:400px){
+    *h1{
+        font-size: 18px;
+    }
+    *h6{
+        font-size: 15px;
+    }
+    .button{
+        size: 20px;
+    }
+    .rounded-circle{
+    height: 10rem;
+    width: 13rem;
+    margin-bottom: 4rem;
+        }
+    #newcol{
+        padding-left: 4rem;
+    }
+}
+
+@media(min-width:401px) and (max-width:600px){
+    *h1{
+        font-size: 20px;
+    }
+    *h6{
+        font-size: 16px;
+    }
+    .button{
+        size: 20px;
+    }
+    .rounded-circle{
+    height: 13rem;
+    width: 16rem;
+        }
+    #newcol{
+        padding-left: 4rem;
+    }
+}
+
+@media(min-width:601px) and (max-width:800px){
+    *h1{
+        font-size: 25px;
+    }
+    *h6{
+        font-size: 17px;
+    }
+    .button{
+        size: 20px;
+    }
+    .rounded-circle{
+    height: 14rem;
+    width: 17rem;
+        }
+    #newcol{
+        padding-left: 4rem;
+    }
+}
+
+@media(min-width:801px) and (max-width:1050px){
     
-
+    .rounded-circle{
+    height: 18rem;
+    width: 22rem;
+        }
+    #newcol{
+        padding-left: 4rem;
+    }
 }
-
-.contactimg
-{
-    height: 420px; 
-    width: 500px; 
-    //margin-left: 1rem; 
-    margin-bottom: 1rem; 
-    //margin-top: 1rem; 
-}
-.contactimg:hover{
-    transform: scale(1.1);
-}
-.btn
-{
-    margin-left: 20rem;
-   // margin-top: 1rem;
-    width: 160px;
-    
-}
-/* 
-.btn:hover{
-    transform: scale(1.1);
-} */
-.history
-{
-    width: 600px;
-    height: 100px;
-    background-color: orange;
-    text-align: center;
-    //margin-right: 5rem;
-    color: white;
-    font-size: xx-large;
-
-}
-.skillsimg
-{
-    height: 180px; 
-    width: 420px; 
-    //margin-left: 1rem; 
-    margin-bottom: 3rem; 
-    //margin-top: 1rem; 
-}
-.skillsimg:hover{
-    transform: scale(1.1);
-}
-

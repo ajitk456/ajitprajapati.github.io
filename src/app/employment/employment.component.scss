@@ -1,37 +1,144 @@
 .emloymentbg
 {
-    height: 650px;
-    width: 1365px;
-    background-image: url(E:\AjPortfolio\src\assets\employmentbg.jpg);
+    height: auto;
+    width: 100%;
+    background-color:#A9A9A9;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.card
-{
-    margin-top: 3rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-    height: 540px;
-    width: 1300px;
-    border-width: thin 2px;
-    border-bottom: thin 2px;
-    background: transparent;
-
-}
-
-.qoutes1:hover
-{
-    transform: scale(1.1) ;
-}
-.qoutes2:hover
-{
-    transform: scale(1.1) ;
+    padding-top: 4rem
+    
 }
 .btn
 {
     width: 120px; 
     background-color: palevioletred; 
     color: white; 
-    margin-right: 27rem;
+    float: left;
+}
+@media(min-width:220px) and (max-width:319px){
+   *h3{
+        font-size: 20px;
     }
+    .pre{
+        font-size: 22px;
+    }
+    #here{
+        width: 35rem;
+    }
+    .col-sm-5{
+        margin-left: 100px;
+    }
+
+}
+
+@media(min-width:320px) and (max-width:359px){
+   *h3{
+        font-size: 16px;
+    }
+    .col-sm-7 p{
+        font-size: 16px;
+    }
+    #here{
+        width: 18.5rem;
+        height: 15rem;
+    }
+    *h1{
+        font-size: 22px;
+    }    
+    #col5{
+        margin-top: 10rem;
+    }
+    *h5{
+        font-size: 17px;
+    }
+    *img{
+        max-height: 17px;
+        max-width: 17px;
+    }
+    *p{
+        font-size: 5px;
+    }
+        
+}
+@media(min-width:360px) and (max-width:400px){
+    *h3{
+        font-size: 22px;
+    }
+    *p{
+        font-size: 14px;
+    }
+    #here{
+        width: 21rem;
+    }
+    *h1{
+        font-size: 25px;
+    }    
+    #col5{
+        margin-top: 4rem;
+    } 
+    *h5{
+        font-size: 20px;
+    }
+}
+@media(min-width:401px) and (max-width:600px){
+    *h3{
+        font-size: 22px;
+    }
+    *p{
+        font-size: 14px;
+    }
+    #here{
+        width: 21rem;
+        margin-left: 1.5rem;
+    }
+    *h1{
+        font-size: 25px;
+    }    
+    #col5{
+        margin-top: 2rem;
+    } 
+    *h5{
+        font-size: 20px;
+    }     
+}
+@media(min-width:601px) and (max-width:800px){
+    *h3{
+        font-size: 22px;
+    }
+    *p{
+        font-size: 14px;
+    }
+    #here{
+        width: 18rem;
+    }
+    *h1{
+        font-size: 25px;
+    }    
+    #col5{
+        margin-top: 2rem;
+    } 
+    *h5{
+        font-size: 16px;
+    }
+    .emloymentbg{
+        padding-bottom: 4rem;
+    }
+    *img{
+        max-height: 17px;
+        max-width: 17px;
+    }
+
+}
+
+@media(min-width:801px) and (max-width:1050px){
+    *h3{
+        font-size: 40px;
+    }
+    .pre{
+        font-size: 17px;
+    }
+    #here{
+        width: 22rem;
+    }
+}

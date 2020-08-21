@@ -18,4 +18,8 @@ export class HeaderComponent implements OnInit {
     this.navbarOpen = !this.navbarOpen;
   }
 
+  scrollTo(elementId) {
+    document.querySelector('#' + elementId).scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
 }

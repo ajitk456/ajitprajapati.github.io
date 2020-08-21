@@ -1,0 +1,22 @@
+.card{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.card:hover {
+    transform: scale(1.2);
+  }
+.image{
+    background-color:#A9A9A9;
+    height: auto;
+    width: 100%;
+}
+
+.text-muted{
+    font-weight: bold;
+    color:#696969;
+}

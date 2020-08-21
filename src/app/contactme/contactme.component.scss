@@ -1,79 +1,116 @@
 .contactbg
 {
-    height: 560px;
-    width: 1365px;
-    background-image: url(E:\AjPortfolio\src\assets\contactbg.jpg);
+    height: auto;
+    width: 100%;
+    background-color:#696969;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
    }
-
-.card
+.card-img{
+    width: 50px;
+    height: 50px;
+    opacity: 0.8;
+}
+.card-img:hover
 {
-    margin-top: 3rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-    height: 540px;
-    width: 1300px;
-    border-width: thin 2px;
-    border-bottom: thin 2px;
+    transform: scale(1.1);
+    opacity: 1.5;
+}
+.card{
+    background-color: cornsilk;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:auto;
+    margin-right:auto;
     background: transparent;
+}
+
+.form-control{
+    width: 70%;
+}
+
+.alert{
+    width: 100%;
+}
+@media(min-width:220px) and (max-width:319px){
+  
+    .card-img{
+        width:20px;
+        height: 30px;
+        opacity: 0.8;
+    }
+    .card-img:hover{
+    transform: scale(1.2);
+    opacity: 1.5;
+    }
+    *h4{
+        font-size: 9px;
+        margin-left: 1rem;
+    }  
+}
+
+@media(min-width:320px) and (max-width:359px){
+   
+    .card-img{
+        width:30px;
+        height: 30px;
+        opacity: 0.8;
+    }
+    .card-img:hover{
+    transform: scale(1.2);
+    opacity: 1.5;
+    }
+    *h4{
+        font-size: 15px;
+        margin-left: 1rem;
+    }
     
-
-}
-.contactcard
-{
-    background-color:white;
-    width: 595px;
-    height: 160px;
-    margin-top: 5rem;
-    margin-left: 1.5rem;
-    background: transparent;
-}
-.contacta:hover
-{
-    transform: scale(1.1);
-}
-.contactcall:hover
-{
-    transform: scale(1.1);
-}
-.contactmsg:hover
-{
-    transform: scale(1.1);
-}
-.contactloaction:hover
-{
-    transform: scale(1.1);
-}
-.contactbg
-{
-    height: 620px;
 }
 
-.contactimg
-{
-    height: 220px; 
-    width: 520px; 
-    //margin-left: 1rem; 
-    margin-bottom: 1rem; 
-    margin-top: 1rem; 
+@media(min-width:360px) and (max-width:400px){
+    .card-img{
+        opacity: 0.8;
+    }
+    .card-img:hover{
+    transform: scale(1.2);
+    opacity: 1.5;
+    }
+    *h4{
+        font-size: 18px;
+    }
 }
-.contactimg:hover{
+
+@media(min-width:401px) and (max-width:600px){
+    .card-img{
+        opacity: 0.8;
+    }
+    .card-img:hover{
+    transform: scale(1.2);
+    opacity: 1.5;
+    }
+    *h4{
+        font-size: 22px;
+    }
+}
+
+@media(min-width:601px) and (max-width:800px){
+    .card-img{
+        width:30px;
+        height: 30px;
+        opacity: 0.8;
+    }
+    .card-img:hover{
     transform: scale(1.1);
+    opacity: 1.5;
+    }
+    *h4{
+        font-size: 20px;
+        margin-left: 1rem;
+    }
 }
-.form
-{
-     width: 450px;
-     height: 180px;
-     margin-top: 2rem; 
-     margin-left: 5rem; 
-     }
-.btn
-{
-    width: 100px; 
-    height:38px; 
-    text-align: center;
-    margin-right: 22rem;
-    margin-top: 1rem;
-}
+
+@media(min-width: 801px) and (max-width: 1050px){}

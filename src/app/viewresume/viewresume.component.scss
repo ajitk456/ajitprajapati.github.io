@@ -1,33 +1,60 @@
 .viewresumebg
 {
     
-    height: 850px;
-    width: 1348px;
+    height: auto;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(E:\AjPortfolio\src\assets\viewresumebg.jpg);
+    background-color:#A9A9A9;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
-.card
+.rounded-circle
 {
-    margin-top: 4rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-    height: 690px;
-    width: 1300px;
-    border-width: thin 2px;
-    border-bottom: thin 2px;
-    background: transparent;
-    
-
+    height: 220px; 
+    width: 240px; 
+     margin-bottom: 1rem;
+     margin-top: 1rem;
+    //  margin-left: 9rem; 
+     opacity: 0.8;
+}
+.rounded-circle:hover{
+    opacity: 1.0;
 }
 
-.viewimg
-{
-    height: 420px; 
-    width: 500px; 
-     margin-bottom: 1rem; 
+@media(min-width: 360px) and (max-width: 400px){
+    *h4{
+        font-size: 20px;
+    }
+    *h3{
+        font-size: 20px;
+    }
 }
-.skillsimg:hover{
-    transform: scale(1.1);
+
+@media(min-width: 401px) and (max-width: 600px){
+    *h4{
+        font-size: 20px;
+    }
+    *h3{
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 601px) and (max-width: 800px){
+    *h4{
+        font-size: 20px;
+    }
+    *h3{
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 801px) and (max-width: 1050px){
+    *h4{
+        font-size: 21px;
+    }
+    *h3{
+        font-size: 21px;
+    }
 }

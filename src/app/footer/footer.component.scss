@@ -10,28 +10,36 @@
     justify-content: center;
     align-items: center;
 }
-.google:hover
-{
-transform: scale(1.1);
-}
 .Facebook:hover
 {
 transform: scale(1.1);
+opacity: 1.0;
+}
+.facebook{
+    opacity: 0.8;
 }
 .Instagram:hover
 {
 transform: scale(1.1);
+opacity: 1.0;
+}
+.Instagram{
+    opacity: 0.8;
 }
 .LinkedIn:hover
 {
 transform: scale(1.1);
+opacity: 1.0;
+}
+.LinkedIn{
+    opacity: 0.8;
 }
 .Twitter:hover
 {
 transform: scale(1.1);
+opacity: 1.0;
 }
-.Youtube:hover
-{
-transform: scale(1.1);
+.Twitter{
+    opacity: 0.8;
 }
 

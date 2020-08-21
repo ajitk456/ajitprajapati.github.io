@@ -1,16 +1,15 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
-  <a class="navbar-brand" href="/"></a>
+<nav class="navbar navbar-expand-lg navbar-light  fixed-top" >
+    <a class="nav-link" routerLink="/homepage" routerLinkActive="active" appHighlight><img src="assets\logo.jpg" alt="logo" style="width: 30px; height: 30px;" ></a>
+  <!-- <a class="navbar-brand" href="/"></a> -->
   <button class="navbar-toggler" type="button" (click)="toggleNavbar()" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavDropdown" [ngClass]="{ 'show': navbarOpen}">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/home" routerLinkActive="active" appHighlight><img src="assets\logo.jpg" alt="logo" style="width: 35px; height: 35px;" > </a>
-      </li>
-      <li class="nav-item " style="margin-left: 45rem;">
-        <a class="nav-link" routerLink="/home" routerLinkActive="active" title="Home" appHighlight>Home</a>
+    <ul class="navbar-nav ml-auto">
+      <!-- <li class="nav-item">
+        <a class="nav-link" routerLink="/homepage" routerLinkActive="active" title="Home" appHighlight>Home<span
+          class="sr-only">(current)</span></a>
       </li> 
       <li class="nav-item">
         <a class="nav-link" routerLink="/aboutme" routerLinkActive="active" title="About Me" appHighlight>About Me</a>
@@ -27,8 +26,32 @@
       <li class="nav-item">
         <a class="nav-link" routerLink="/contactme" routerLinkActive="active" title="Contact Me" appHighlight>Contact Me</a>
       </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-sm btn-outline-light py-0" title="Download Resume" style="border-width: 2px; color: black;"><a class="nav-link" routerLink='/assets/sujit_resume.pdf' routerLinkActive="active" target="_blank" >Resume<i class="fa fa-download" aria-hidden="true" style="margin-left: 0.3rem;"></i></a></button>
+      </li> -->
+
+      <li class="nav-item">
+        <a class="nav-link" title="Home"  (click)="scrollTo('home')" appHighlight>Home<span
+          class="sr-only">(current)</span></a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" title="About Me" (click)="scrollTo('aboutme')" appHighlight>About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" title="Skills" (click)="scrollTo('skills')" appHighlight>Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" title="Education" (click)="scrollTo('education')" appHighlight>Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" title="Employment" (click)="scrollTo('employment')" appHighlight>Employment</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" title="Contact Me" (click)="scrollTo('contactme')" appHighlight>Contact Me</a>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-sm btn-outline-light py-0" title="Download Resume" style="border-width: 2px; color: black;"><a class="nav-link" routerLink='\assets\Ajit_Prajapati_Resume.pdf' routerLinkActive="active" target="_blank" >Resume<i class="fa fa-download" aria-hidden="true" style="margin-left: 0.3rem;"></i></a></button>
+      </li>
     </ul>
   </div>
 </nav>
-
-<router-outlet></router-outlet>

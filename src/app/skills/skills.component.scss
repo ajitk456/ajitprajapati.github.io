@@ -1,48 +1,144 @@
 .skillsbg
 {
-    height: 620px;
-    width: 1365px;
-    background-image: url(E:\AjPortfolio\src\assets\skillsbg.jpg);
+    height: auto;
+    width: 100%;
+    background-color:#A9A9A9 ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     
 }
-.card
-{
-    margin-top: 3rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-    height: 540px;
-    width: 1300px;
-    border-width: thin 2px;
-    border-bottom: thin 2px;
-    background: transparent;
+*label:hover{
+  color: #1E90FF;
+}
 
+.p-2{
+  font-weight: bold;
+  color: whitesmoke;
 }
-.btn
-{
-    margin-left: 27rem;
-    margin-top: 1rem;
-    width: 160px;
-    
+
+.p-2:hover{
+  color: #1E90FF;
 }
-.qoutes1:hover
-{
-    transform: scale(1.1) ;
+
+.progress{
+  width: 28pc; 
 }
-.qoutes2:hover
-{
-    transform: scale(1.1) ;
+
+label{
+  color: whitesmoke;
 }
-.skillsimg
-{
-    height: 180px; 
-    width: 490px; 
-    margin-left: 4rem; 
-    //margin-bottom: 1rem; 
-    margin-top: 1rem; 
+
+@media(min-width: 320px) and (max-width: 359px){
+  .p-2{
+    font-size: 13px;
+  }
+  *h4{
+    font-size: 18px;
+  }
 }
-.skillsimg:hover{
-    transform: scale(1.1);
+
+@media(min-width: 360px) and (max-width: 400px){
+  .progress{
+    width: 18pc;
+  }
+  .container{
+    font-size: 20px;
+  }
+  *pre{
+    font-size: 14px;
+  }
+  *label{
+    font-size: 14px;
+  }
+  *h4{
+    font-size: 20px;
+  }
+  .skill{
+    font-size: 14px;
+  }
+  .p-2{
+    font-size: 14px;
+  }
+}
+
+@media(min-width: 401px) and (max-width: 600px){
+  .progress{
+    width: 18pc;
+  }
+  .container{
+    font-size: 20px;
+  }
+  *pre{
+    font-size: 14px;
+  }
+  *label{
+    font-size: 14px;
+  }
+  *h4{
+    font-size: 22px;
+  }
+  .skill{
+    font-size: 14px;
+  }
+  .p-2{
+    font-size: 14px;
+  } 
+  }
+
+@media(min-width: 601px) and (max-width: 800px){
+  .progress{
+    width: 18pc;
+  }
+  .container{
+    font-size: 20px;
+  }
+  *pre{
+    font-size: 14px;
+  }
+  *label{
+    font-size: 14px;
+  }
+  *h4{
+    font-size: 20px;
+  }
+  .skill{
+    font-size: 14px;
+  }
+  .p-2{
+    font-size: 14px;
+  } 
+  }
+
+  
+@media(min-width: 801px) and (max-width: 1050px){
+  .progress{
+    width: 18pc;
+  }
+  .container{
+    font-size: 20px;
+  }
+  *pre{
+    font-size: 14px;
+  }
+  *label{
+    font-size: 14px;
+  }
+  *h4{
+    font-size: 20px;
+  }
+  .skill{
+    font-size: 14px;
+  }
+  .p-2{
+    font-size: 14px;
+  } 
+  }
+
+@media(min-width: 320px) and (max-width: 359px){
+  .progress{
+    width: 15pc;
+  } 
 }
