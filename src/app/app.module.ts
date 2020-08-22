@@ -20,7 +20,7 @@ import { HomepagecomponentComponent } from './homepagecomponent/homepagecomponen
 const appRoutes: Routes = [
   {path: 'homepage' , component: HomepagecomponentComponent},
   {path: 'aboutme', component: AboutmeComponent},
-  { path: 'assets/Ajit_Prajapati_Resume.pdf', redirectTo: '../assets/Ajit_Prajapati_Resume.pdf'},
+  {path: 'assets/Ajit_Prajapati_Resume.pdf', redirectTo: '../assets/Ajit_Prajapati_Resume.pdf'},
   {path: 'skills', component: SkillsComponent},
   {path: 'education', component: EducationComponent},
   {path: 'employment', component: EmploymentComponent},
